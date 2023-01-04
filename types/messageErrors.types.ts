@@ -1,0 +1,1 @@
+export type TypeMessageErrorsTypes = 'has already been taken'
