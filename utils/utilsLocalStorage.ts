@@ -3,7 +3,8 @@ export class UtilsLocalStorage {
         if (!key) return;
 
         return JSON.parse(localStorage.getItem(key)!) || null;
-        //return JSON.parse(localStorage.getItem(key)!);
+        // return JSON.parse(localStorage.getItem(key)!) || [];
+        // return JSON.parse(localStorage.getItem(key)!);
     }
 
     static setLocalStorage(key: string, data: any) {
